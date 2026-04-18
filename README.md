@@ -1,4 +1,4 @@
-# React + Vite
+# React + Vite 
 # Credit Card Application System
 
 A full-stack application that allows users to apply for a credit card, tracks application status, and automates approval decisions based on business rules. and showing  credit score 
@@ -19,9 +19,14 @@ A full-stack application that allows users to apply for a credit card, tracks ap
 
 ## High-Level Design (HLD)
 
-Frontend (React)
+Frontend (React -19.2.3(lsv))
         ↓
 Backend (Json-server)
+
+## Low level design
+Redux for statemangment
+mock json
+Booststrap (handeling responsive ui)
 
 
 ## Components
@@ -33,9 +38,6 @@ Backend (Json-server)
 * API integration
 * Status tracking UI
 
-
-
----
 
 # Business Rules
 
