@@ -1,15 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
+import { ApplicationForm } from './features/components/ApplicationForm'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1 className='text-center mt-5'>Credit Card Application</h1>
+      <h1 className="text-center mt-4 mb-2">Credit Card Application</h1>
+      <ApplicationForm />
     </>
   )
 }
