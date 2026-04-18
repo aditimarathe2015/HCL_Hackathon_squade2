@@ -1,18 +1,8 @@
+import { ApplicationForm } from './features/components/ApplicationForm';
 
-import ApplicationForm from './features/components/ApplicationForm'
-import  CreditLimit  from './features/components/CreditLimit'
-import CreditScoreForm from './features/components/CreditScore'
-function App() {
-
+export default function App () {
+  
   return (
-    <>
-      <div className="ticks">
-       <ApplicationForm/>
-       <CreditLimit/>
-       <CreditScoreForm/>
-      </div> 
-    </>
-  )
-}
-
-export default App
+    <ApplicationForm/>
+  );
+};
